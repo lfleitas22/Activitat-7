@@ -1,0 +1,42 @@
+/*Aquest documents edita els estils del capes.html
+Cada un dels divs edita un div diferent*/
+.blau{  
+    /*Amb aquest comanda editem el color del darrera del div*/
+    background-color: cornflowerblue;
+    /*Aqui podem editar l'amplada del div*/
+    width:160px;
+    /*Aqui podem editar l'altura del div*/
+    height: 120px;
+    /*Aqui edites el marge que te de dalt*/
+    margin-top: 40px;
+    /*Aqui edites el marge que te de l'esquerra*/
+    margin-left: 20px;
+    /*Indica que el div té una posicio absoluta*/
+    position: absolute;
+    /*Aqui esta l'ordre de prioritat de l'aparicó en pantalla*/
+    z-index: 1;
+}
+.groc{  
+    background-color: yellow;    
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+.vermell{
+    background-color: red;
+    width:160px;
+    height:120px;
+    margin-top: 140px;
+    margin-left: 100px;
+    position: absolute;
+}
+.verd{  
+    background-color: lightgreen;
+    width:40px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    position: absolute;
+}

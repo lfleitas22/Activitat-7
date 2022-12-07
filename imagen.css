@@ -1,0 +1,35 @@
+/*Aquest document edita els estils del html imagen*/
+/*Aquest div es el principal*/
+.root {
+    /*Amb aquesta part fa que tot el div tingui posicio absoluta*/
+    position: absolute;
+}
+/*Aqui editem el text del centre*/
+.centre {
+    position: absolute;
+    /*Amb aixó ens asegurem que esta al mig de la pantalla*/
+    top: 50%;
+    /*Aqui especifiques l'amplada*/
+    width: 100%;
+    /*fem que el text estigui alineat al centre*/
+    text-align: center;
+    /*el tamany de la font es de 18 pixles*/
+    font-size: 18px;
+}
+/*Aqui editem el text d'abaix a l'esquerra*/
+.abaixesquerra {
+    position: absolute;
+    /*Esta a 8px de la part inferior(en aquest cas del div creat anteriorment)*/
+    bottom: 8px;
+    /*Esta a 16px de l'esquerra del div*/
+    left: 16px;
+    font-size: 18px;
+}
+/*Aqui editem l'imatge*/
+img {
+    width: 100%;
+    /*l'altura es fa automaticament*/
+    height: auto;
+    opacity: 0.3;
+}
+
